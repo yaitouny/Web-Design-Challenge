@@ -55,18 +55,32 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <div class="dropdown">
-							<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Visualizations
-							</a>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-								<a class="dropdown-item" href="visualizations/temp.html">Temperature</a>
-								<a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-								<a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-								<a class="dropdown-item" href="visualizations/windspeed.html">Wind Speed</a>
-							</div>
+          <li class="nav-item dropdown">
+				
+						<a
+						class="nav-link dropdown-toggle"
+						data-toggle="dropdown"
+						id="navbarDropdownMenuLink"
+						href="#"
+						role="button"
+						aria-haspopup="true"
+						aria-expanded="false"
+						>Visualizations</a
+					>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="../visualizations/temp.html"
+								>Temperature</a
+							>
+							<a class="dropdown-item" href="../WebVisualtizations/visualizations/humidity.html"
+								>Humidity</a
+							>
+							<a class="dropdown-item" href="../WebVisualtizations/visualizations/cloudiness.html">Cloudiness</a>
+							<a class="dropdown-item" href="../visualizations/cloudiness.html"
+								>Wind Speed</a
+							>
+						
 						</div>
+            
           </li>
           <li class="nav-item">
             <a class="nav-link" href="comparisons.html">Comparisons</a>
@@ -94,7 +108,8 @@
           <div class="card text-white bg-dark mb-3" style="max-width: 60rem;">
             <h1 class="card-header">Header</h1>
             <div class="card-body">
-              <h4 class="card-title">Dark card title</h4>
+							<h4 class="card-title">Dark card title</h4>
+							<img class="image_inline image_fit">
               <p class="card-text">
                 Spicy jalapeno bacon ipsum dolor amet doner beef pancetta cow meatloaf capicola shankle buffalo biltong andouille burgdoggen kielbasa tongue pork chop. Ball tip boudin shank pork loin meatball picanha beef jowl biltong meatloaf
                             ham burgdoggen frankfurter strip steak flank. Jowl strip steak ball tip frankfurter andouille brisket. Tail pork loin short ribs pastrami kielbasa chuck strip steak porchetta t-bone ground round.</p>
@@ -116,8 +131,20 @@
 								</div>
 								<div class="row">
 									<div class="row-md-6 col-sm-6">
-										<a href></a>
-										<p>Figures number</p>
+										<a href="visualizations/temp.html"><img class="image_inline image_clickable" src="../WebVisualtizations/images/Fig1.png"></a>
+										<p class="subtitle">Fig 1</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/humidity.html"><img class="image_inline image_clickable" src="../WebVisualtizations/images/Fig2.png" ></a>
+										<p class="subtitle">Fig 2</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/cloudiness.html"><img class="image_inline image_clickable" src="../WebVisualtizations/images/Fig3.png"></a>
+										<p class="subtitle">Fig 3</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/windspeed.html"><img class="image_inline image_clickable" src="../WebVisualtizations/images/Fig4.png"></a>
+										<p class="subtitle">Fig 4</p>
 									</div>
 								</div>
 							</div>
