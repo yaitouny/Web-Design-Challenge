@@ -35,7 +35,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <!-- Navbar content -->
-      <a class="navbar-brand" href="main.html">Yasmine Aitouny</a>
+      <a class="navbar-brand" href="index.html">Yasmine Aitouny</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -51,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="main.html"
+            <a class="nav-link" href="index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
@@ -68,10 +68,10 @@
               Visualizations
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Temperature</a>
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Cloudiness</a>
-              <a class="dropdown-item" href="#">Wind Speed</a>
+              <a class="dropdown-item" href="../visualizations/temp.html">Temperature</a>
+              <a class="dropdown-item" href="../visualizations/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="../visualizations/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="../visualizations/windspeed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
@@ -93,6 +93,58 @@
           </button>
         </form>
       </div>
-    </nav>
+		</nav>
+		
+		<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card border-primary mb-3" style="max-width: 60rem;">
+            <h1 class="card-header">Summary</h1>
+            <div class="card-body">
+							<img class="image_inline image_fit" src="../images/Fig1.png">
+							<h4 class="card-title">Latitude vs. Temperature</h4>
+							<img class="image_inline image_fit">
+              <p class="card-text">
+                This graph shows some real good stuff.</p>
+              </p>
+            </div>
+          </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card border-primary mb-3">
+						<div class="card-header">
+							<h2>Visualizations</h2>
+						</div>
+						<div class="card-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12">
+										<p>Select a graph: </p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/temp.html"><img class="image_inline image_clickable" src="../images/Fig1.png" style="width: 100%;"></a>
+										<p class="subtitle">Latitude vs. Temperature</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/humidity.html"><img class="image_inline image_clickable" src="../images/Fig2.png" style="width: 100%" ></a>
+										<p class="subtitle">Latitude vs. Humidity</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/cloudiness.html"><img class="image_inline image_clickable" src="../images/Fig3.png" style="width: 100%"></a>
+										<p class="subtitle">Latitude vs. Cloudiness</p>
+									</div>
+									<div class="row-md-6 col-sm-6">
+										<a href="visualizations/windspeed.html"><img class="image_inline image_clickable" src="../images/Fig4.png" style="width: 100%" ></a>
+										<p class="subtitle">Latitude vs. Wind Speed</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
   </body>
 </html>

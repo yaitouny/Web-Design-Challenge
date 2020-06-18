@@ -36,3 +36,7 @@ li a:hover:not(.active) {
 .subtitle {
   text-align: center;
 }
+
+.image_fit {
+  height: fit-content;
+}
